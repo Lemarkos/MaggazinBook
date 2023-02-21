@@ -9,8 +9,9 @@ public class Main {
         Magazine magazine2 = new Magazine("Forbs");
         Magazine magazine3 = new Magazine("Variety");
         Printable[] printable = {book1,book2,book3, magazine1,magazine2,magazine3};
-        
+
         Magazine.printMagazines(printable);
         Book.printBooks(printable);
+        System.out.println("hello");
     }
 }
