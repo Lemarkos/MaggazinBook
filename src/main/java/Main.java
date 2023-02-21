@@ -12,6 +12,5 @@ public class Main {
 
         Magazine.printMagazines(printable);
         Book.printBooks(printable);
-        System.out.println("hello");
     }
 }
